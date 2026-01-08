@@ -27,11 +27,27 @@
   font-size:20px;
   font-weight: bold;
   color: white;
+  cursor: pointer;
 }
+.section-heading {
+  max-width: 827px;
+  text-align: center;
+}
+.section-heading h2{
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.section-heading p{
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  color: #757575;
+}
+
 /*main style*/
 header{
 background-color: #fff8f3;
-background: url(../images/developer.png),url(../images/header_bg.png) ,#fff8f3gir;
+background: url(../images/developer.png),url(../images/header_bg.png) ,#fff8f3;
 background-position: top left,bottom right;
 background-repeat: no-repeat;
 padding-top: 50px;
@@ -63,7 +79,7 @@ nav .menu a{
 }
 
 #banner {
-  margin: 47px,38px,0,230px;
+  margin: 47px,28px,0,230px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -101,13 +117,17 @@ margin-bottom: 30px;
  #about {
   padding-top: 130px;
  }
- about.about-container {
+ #about .about-container {
   width: 71%;
-  max-width: 1140;
+  max-width: 1140px;
   margin: 0 auto;
   text-align: center;
   background-color: #fff8f3;
   padding: 131px 156px;
+ }
+ #about .about-container .about-info{
+  display: flex;
+  justify-content: space-around;
  }
  #skills{
   padding-top: 130px;
